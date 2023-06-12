@@ -14,6 +14,7 @@ uint64_t page_number_mask (uint64_t virtual_address, int depth){
     return virtual_address & ((1 << mask) - 1);
 }
 
+
 void VMinitialize(){
     // Initialize the virtual memory.
     // Initialize the page table.
